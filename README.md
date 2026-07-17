@@ -16,7 +16,7 @@ Self-hosted media server and personal infrastructure running on Proxmox bare met
 | **Prowlarr** | Indexer aggregation/sync
 | **qBittorrent** | Torrent client (VPN sidecar)
 | **Vaultwarden** | Self-hosted password manager
-| **Nginx Proxy Manager** | Reverse proxy & SSL termination
+| **Nginx Proxy Manager** | Reverse proxy
 | **Prometheus** | Metrics collection
 | **Grafana** | Visualization & alerting
 | **Uptime Kuma** | Service health monitoring
