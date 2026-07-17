@@ -1,16 +1,25 @@
-  # Homelab Infrastructure
+# Homelab Infrastructure
+
+## Overview
+Self-hosted media server and personal infrastructure running on Proxmox bare metal. Multi-container stack orchestrated with Docker/Portainer, designed for media automation, backup, and monitoring.
+
+**Status:** Active | **Last Updated:** 7/16/26
   
-  ## Overview
-  Multi-container home server running media services, backup, and monitoring.
-  
-  ## What's Running
-  - Proxmox (bare metal/type 1 hypervisor)
-  - Jellyfin (media server)
-  - Sonarr/Radarr/Prowlarr (media management)
-  - Tailscale (Remote VPN server access)
-  - Vaultwarden (password manager)
-  - Prometheus/Grafana & Uptime Kuma (monitoring)
-  - qBittorrent (with Proton VPN)
+## What's Running
+
+| Service | Purpose |
+|---------|---------|
+| **Homarr** | Personal dashboard & service portal
+| **Jellyfin** | Media streaming
+| **Sonarr** | Automated TV episode ingestion
+| **Radarr** | Automated movie ingestion
+| **Prowlarr** | Indexer aggregation/sync
+| **qBittorrent** | Torrent client (VPN sidecar)
+| **Vaultwarden** | Self-hosted password manager
+| **Nginx Proxy Manager** | Reverse proxy & SSL termination
+| **Prometheus** | Metrics collection
+| **Grafana** | Visualization & alerting
+| **Uptime Kuma** | Service health monitoring
   
   ## Architecture
   
